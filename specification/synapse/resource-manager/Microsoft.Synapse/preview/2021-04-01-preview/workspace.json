@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "2021-03-01",
+    "version": "2021-04-01-preview",
     "title": "SynapseManagementClient",
     "description": "Azure Synapse Analytics APIs"
   },
@@ -1210,10 +1210,6 @@
           "description": "The ADLA resource ID.",
           "type": "string",
           "readOnly": true
-        },
-        "networkSettings": {
-          "description": "Network Settings",
-          "$ref": "#/definitions/NetworkSettings"
         }
       }
     },
@@ -1267,10 +1263,6 @@
         "encryption": {
           "description": "The encryption details of the workspace",
           "$ref": "#/definitions/EncryptionDetails"
-        },
-        "networkSettings": {
-          "description": "Network Settings",
-          "$ref": "#/definitions/NetworkSettings"
         }
       }
     },
@@ -1401,24 +1393,6 @@
         "value"
       ],
       "description": "The response to a list restorable dropped Sql pools request"
-    },
-    "NetworkSettings": {
-      "description": "Network Settings",
-      "type": "object",
-      "properties": {
-        "publicNetworkAccess": {
-          "enum": [
-            "Enabled",
-            "Disabled"
-          ],
-          "description": "Enable or Disable pubic network access to workspace",
-          "type": "string",
-          "x-ms-enum": {
-            "name": "WorkspacePublicNetworkAccess",
-            "modelAsString": true
-          }
-        }
-      }
     }
   },
   "parameters": {
