@@ -39,8 +39,7 @@
               "keyVaultUrl": "https://vault.azure.net/keys/key1"
             }
           }
-        },
-        "publicNetworkAccess": "Enabled"
+        }
       }
     }
   },
@@ -83,8 +82,7 @@
                 "keyVaultUrl": "https://vault.azure.net/keys/key1"
               }
             }
-          },
-          "publicNetworkAccess": "Enabled"
+          }
         },
         "tags": {
           "key": "value"
@@ -129,8 +127,7 @@
                 "keyVaultUrl": "https://vault.azure.net/keys/key1"
               }
             }
-          },
-          "publicNetworkAccess": "Enabled"
+          }
         },
         "tags": {
           "key": "value"

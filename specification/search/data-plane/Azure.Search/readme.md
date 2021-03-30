@@ -417,7 +417,7 @@ directive:
           return $
           .replace(/(getAdditionalProperties)/g, "getDocument")
           .replace(/(setAdditionalProperties)/g, "setDocument")
-      reason: Provides a better description of the getter/setter for additionalProperties
+      reason: Provides a better description of the getter/setter for addtionalProperties
 
     - from:
           - SearchResult.java

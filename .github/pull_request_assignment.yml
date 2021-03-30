@@ -8,12 +8,6 @@
       - maririos
 
 - rule:
-    paths:
-      - "specification/confidentialledger/data-plane/**"
-    reviewers:
-      - christothes 
-
-- rule:
     # eventgrid data-plane PR
     paths:
       - "specification/eventgrid/data-plane/**"
@@ -164,12 +158,6 @@
       - "specification/servicelinker/**"
     reviewers:
       - raych1
-      
-- rule:
-    paths:
-      - "specification/keyvault/**"
-    reviewers:
-      - zhenglaizhang
 
 - rule:
     paths: 

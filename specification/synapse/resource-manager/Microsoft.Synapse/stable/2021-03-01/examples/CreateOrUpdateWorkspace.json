@@ -44,7 +44,9 @@
             }
           }
         },
-        "publicNetworkAccess": "Enabled"
+        "networkSettings": {
+          "publicNetworkAccess": "Enabled"
+        }
       },
       "location": "East US",
       "tags": {
@@ -116,7 +118,9 @@
               }
             }
           },
-          "publicNetworkAccess": "Enabled"
+          "networkSettings": {
+            "publicNetworkAccess": "Enabled"
+          }
         },
         "tags": {
           "key": "value"
@@ -163,7 +167,9 @@
               }
             }
           },
-          "publicNetworkAccess": "Enabled"
+          "networkSettings": {
+            "publicNetworkAccess": "Enabled"
+          }
         },
         "tags": {
           "key": "value"
